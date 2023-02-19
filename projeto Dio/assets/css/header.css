@@ -3,4 +3,45 @@
 .header {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.header .photo {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.header .title {
+    font-family: 'Neue Machina';
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.information p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: .5rem;
+}
+
+.information  p::before { 
+    content: '';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1.6rem;
+    height: 1.4rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.information .job::before {
+    background-image: url('../img/icons/job.svg');
 }
