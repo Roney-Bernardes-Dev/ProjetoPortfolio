@@ -44,4 +44,20 @@
 
 .information .job::before {
     background-image: url('../img/icons/job.svg');
+    filter: invert(16%) sepia(30%) saturate(7467%) hue-rotate(267deg) brightness(77%) contrast(125%);
+}
+
+.information .location::before {
+    background-image: url('../img/icons/location.svg');
+    filter: invert(16%) sepia(30%) saturate(7467%) hue-rotate(267deg) brightness(77%) contrast(125%);
+}
+
+.information .phone::before {
+    background-image: url('../img/icons/phone.svg');
+    filter: invert(16%) sepia(30%) saturate(7467%) hue-rotate(267deg) brightness(77%) contrast(125%);
+}
+
+.information .email::before {
+    background-image: url('../img/icons/email.svg');
+    filter: invert(16%) sepia(30%) saturate(7467%) hue-rotate(267deg) brightness(77%) contrast(125%);
 }
