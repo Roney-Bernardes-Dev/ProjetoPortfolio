@@ -12,14 +12,19 @@
 .acordeon .trigger {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     font-size: 1,5rem;
     font-weight: 600;
-    align-items: center;
     padding: 1rem 2rem;
     background-color: transparent;
     color: #fff;
     border: none;
+}
+
+.acordeon .title::after {
+    content: "";
+    display: inline-block;
+    background-image: url('../img/icons/arrow-top.svg');
+
 }
 
 .acordeon .content {
