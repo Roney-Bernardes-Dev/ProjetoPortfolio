@@ -12,17 +12,22 @@
 .acordeon .trigger {
     display: flex;
     flex-direction: row;
-    font-size: 1,5rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 700;
     padding: 1rem 2rem;
     background-color: transparent;
     color: #fff;
     border: none;
 }
 
-.acordeon .title::after {
+.acordeon .trigger::after {
     content: "";
     display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(130deg) brightness(100%) contrast(101%);
     background-image: url('../img/icons/arrow-top.svg');
 
 }
