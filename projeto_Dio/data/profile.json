@@ -33,8 +33,8 @@
   ],
   "portfolio": [
     {
-      "name": "Colocar Curso aqui",
-      "url": " ",
+      "name": "Curriculo Online",
+      "url": "https://roney-bernardes-dev.github.io/",
       "github": true
     },
     {
@@ -46,16 +46,6 @@
   "professionalExperience": [
     {
       "name": "Primeiro emprego",
-      "period": "",
-      "description": ""
-    },
-    {
-      "name": "",
-      "period": "",
-      "description": ""
-    },
-    {
-      "name": "",
       "period": "",
       "description": ""
     }
